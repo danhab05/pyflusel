@@ -23,7 +23,7 @@ deploy:
   provider: GitHub
   auth_token: $(GITHUB_TOKEN)
   on:
-    appveyor_repo_tag: true
+    appveyor_repo_tag: false
 
 #
 #   Windows package
